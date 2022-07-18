@@ -4,9 +4,9 @@
 #firstid {
     font-size: 36px;color: blue;
 }
-#three {
-    font-size: 24px;
-}
 #secondid {
     background-color: green; font-size: 24px; font-weight: bold;
+}
+.oddly-cool{
+    font-size: 24px;
 }
