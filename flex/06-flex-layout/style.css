@@ -16,7 +16,16 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #eee;  
+  padding: 5px;
+}
+.buttons {
+  display: flex;
+  margin-left: 37%;
+  justify-content: center;
+  gap: 10px ;
+  align-content: center;
+  align-self: center;
 }
 
 input {
@@ -32,6 +41,14 @@ input {
   flex-flow: row wrap;
   margin: 10px;
   height: auto;
+  flex-shrink: 0;
+  padding: 200px;
+  justify-content: center;
+}
+.input  {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .header {
