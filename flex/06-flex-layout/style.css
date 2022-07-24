@@ -42,8 +42,10 @@ input {
   margin: 10px;
   height: auto;
   flex-shrink: 0;
-  padding: 200px;
+  padding: 100px;
   justify-content: center;
+  max-width: 500px;
+  margin-left: 30%;
 }
 .input  {
 display: flex;
