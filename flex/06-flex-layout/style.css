@@ -19,27 +19,21 @@ button {
   background: #eee;
 }
 
-.imag {
-  display: flex;
-}
-
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
 }
 
 .content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
   margin: 10px;
+  height: auto;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
